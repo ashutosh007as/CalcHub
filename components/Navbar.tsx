@@ -7,19 +7,15 @@ export const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
 
         {/* Logo */}
-        <Link href="/" className="text-xl font-bold">
+        <Link href="/" className="text-[38px] font-bold">
           CalcHub
         </Link>
 
         {/* Links */}
-        <div className="flex gap-6 text-sm font-medium">
-          <Link href="/" className="hover:text-gray-200">Home</Link>
-          <Link href="/gst-calculator" className="hover:text-gray-200">
-            GST
-          </Link>
-          <Link href="/salary-calculator" className="hover:text-gray-200">
-            Salary
-          </Link>
+        <div className="flex gap-10 text-sm font-medium">
+          <Link href="/" className="hover:text-gray-200 font-bold text-[16px]">Home</Link>
+          <Link href="/gst-calculator" className="hover:text-gray-200 font-bold text-[16px]"> GST </Link>
+          <Link href="/salary-calculator" className="hover:text-gray-200 font-bold text-[16px]"> Salary </Link>
         </div>
       </div>
     </nav>
