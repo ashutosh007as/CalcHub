@@ -18,14 +18,14 @@ export default function Home() {
         <div className="mt-10 flex gap-4 justify-center flex-wrap">
           <Link
             href="/gst-calculator"
-            className="px-6 py-3 rounded-xl bg-black text-white hover:bg-gray-800"
+            className="px-6 py-3 rounded-xl bg-orange-500 text-white hover:bg-orange-400"
           >
             GST Calculator
           </Link>
 
           <Link
             href="/salary-calculator"
-            className="px-6 py-3 rounded-xl border border-gray-300 hover:bg-gray-100"
+            className="px-6 py-3 rounded-xl border border-orange-300 hover:bg-orange-100"
           >
             Salary Calculator
           </Link>
@@ -63,7 +63,7 @@ export default function Home() {
         </h2>
 
         <p className="text-sm leading-7">
-          CalcHub provides free GST calculator and salary calculator tools for
+          Calcora provides free GST calculator and salary calculator tools for
           India. Businesses, freelancers, and employees can easily calculate
           GST amounts, in-hand salary, and income tax in seconds. This tool is
           designed to be fast, mobile-friendly, and accurate for daily use.

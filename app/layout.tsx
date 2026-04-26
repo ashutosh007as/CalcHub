@@ -5,8 +5,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    default: "CalcHub India - GST, Salary",
-    template: "%s | CalcHub India",
+    default: "TCalcora India - GST, Salary",
+    template: "%s | TCalcora India",
   },
   description:
     "Free online GST calculator, salary calculator, and financial tools for India. Fast, simple and accurate.",
@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     "in hand salary calculator",
     "financial tools India",
   ],
-  authors: [{ name: "CalcHub India" }],
-  creator: "CalcHub India",
+  authors: [{ name: "TCalcora India" }],
+  creator: "TCalcora India",
   openGraph: {
-    title: "CalcHub India",
+    title: "TCalcora India",
     description: "Free financial calculators for India",
     url: "https://your-domain.com",
-    siteName: "CalcHub",
+    siteName: "TCalcora",
     type: "website",
   },
   

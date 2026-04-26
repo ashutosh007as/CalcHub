@@ -81,7 +81,7 @@ export default function GSTForm() {
 
       <button
         onClick={calculateGST}
-        className="w-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white p-3 rounded-lg font-semibold hover:opacity-90"
+        className="w-full bg-gradient-to-r from-orange-300 to-orange-400 text-white p-3 rounded-lg font-semibold hover:opacity-90"
       >
         Calculate
       </button>
